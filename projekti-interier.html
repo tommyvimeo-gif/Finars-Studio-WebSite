@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interier | FIN ARS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px; }
+    .gallery-card { background: var(--color-surface); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border); transition: transform 0.35s ease, border-color 0.35s ease; }
+    .gallery-card:hover { transform: translateY(-6px); border-color: var(--color-accent); }
+    .gallery-card .img-wrap { aspect-ratio: 4/3; overflow: hidden; }
+    .gallery-card .img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; cursor: zoom-in; }
+    .gallery-card:hover .img-wrap img { transform: scale(1.08); }
+    .gallery-card .caption { padding: 18px 20px 22px; }
+    .gallery-card .caption h3 { font-family: var(--font-serif); font-size: 1.15rem; margin-bottom: 6px; }
+    .gallery-card .caption p { font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.5; }
+    .back-link { display: inline-flex; align-items: center; gap: 8px; color: var(--color-accent); font-weight: 500; margin-bottom: 32px; }
+    .back-link:hover { color: var(--color-accent-hover); }
+  </style>
+</head>
+<body>
+  <div class="bg-animation"><div class="bg-shape shape-1"></div><div class="bg-shape shape-2"></div><div class="bg-shape shape-3"></div></div>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-mark">FA</span><span class="logo-text">FIN ARS</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav-link">Domov</a>
+        <a href="projekti.html" class="nav-link active">Projekti</a>
+        <a href="storitve.html" class="nav-link">Storitve</a>
+        <a href="o-nas.html" class="nav-link">O nas</a>
+        <a href="novice.html" class="nav-link">Novice</a>
+        <a href="kontakt.html" class="nav-link nav-cta">Kontakt</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Meni"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Kategorija</p>
+      <h1>Interier</h1>
+      <p>Oblikovanje notranjih prostorov – od kuhinj in dnevnih sob do spalnic in poslovnih interierjev.</p>
+    </div>
+  </section>
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <a href="projekti.html" class="back-link">← Nazaj na vse projekte</a>
+      <div class="gallery-grid">
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80" alt="Stanovanje Center" loading="lazy"></div><div class="caption"><h3>Stanovanje Center</h3><p>Celostna ureditev mestnega stanovanja z odprtim tlorisom. Ljubljana, 2023.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80" alt="Kuhinja & bivalni prostor" loading="lazy"></div><div class="caption"><h3>Kuhinja & bivalni prostor</h3><p>Povezan kuhinjsko-bivalni prostor z otokom in toplo leseno površino. Zagorje, 2024.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80" alt="Spalnica & garderoba" loading="lazy"></div><div class="caption"><h3>Spalnica & garderoba</h3><p>Mirna spalnica z vgrajeno garderobno omaro in mehko razsvetljavo. 2023.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1615874959471-d45c25f5d1c0?w=800&q=80" alt="Dnevna soba" loading="lazy"></div><div class="caption"><h3>Dnevna soba</h3><p>Udoben dnevni prostor z kaminom in velikimi okni. Zasavje, 2022.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80" alt="Moderna kuhinja" loading="lazy"></div><div class="caption"><h3>Moderna kuhinja</h3><p>Minimalistična kuhinja z mat črnimi površinami in kamnitim pultom. 2024.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80" alt="Otroška soba" loading="lazy"></div><div class="caption"><h3>Otroška soba</h3><p>Igralni in učni prostor za otroke z varnimi materiali. 2021.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80" alt="Kopalnica" loading="lazy"></div><div class="caption"><h3>Kopalnica spa</h3><p>Luksuzna kopalnica z freestanding kadjo in naravnim kamnom. 2023.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=800&q=80" alt="Jedilnica" loading="lazy"></div><div class="caption"><h3>Jedilnica</h3><p>Uradna jedilnica z lesenim podom in visečo svetilko. 2022.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=800&q=80" alt="Hodnik" loading="lazy"></div><div class="caption"><h3>Vhodni hodnik</h3><p>Reprezentativni vhod z ogledalom in shrambo. Zagorje, 2020.</p></div></div>
+        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?w=800&q=80" alt="Home office" loading="lazy"></div><div class="caption"><h3>Domača pisarna</h3><p>Delovni kotiček z dovolj dnevne svetlobe in shranjevanjem. 2024.</p></div></div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a href="index.html" class="logo"><span class="logo-mark">FA</span><span class="logo-text">FIN ARS</span></a><p>Center za arhitekturo, gradbeno projektiranje in druge storitve d.o.o.</p></div>
+      <div class="footer-links"><h4>Navigacija</h4><a href="projekti.html">Projekti</a><a href="storitve.html">Storitve</a><a href="o-nas.html">O nas</a><a href="novice.html">Novice</a><a href="kontakt.html">Kontakt</a></div>
+      <div class="footer-contact"><h4>Kontakt</h4><p>Podvine 36<br>1410 Zagorje ob Savi</p><p><a href="mailto:info@finars.si">info@finars.si</a></p><p>+386 41 686 959</p></div>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>© 2025 FIN ARS d.o.o. Vse pravice pridržane.</p></div></div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
