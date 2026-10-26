@@ -3,24 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Javni projekti | FIN ARS</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Javni | Projekti | FIN ARS</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px; }
-    .gallery-card { background: var(--color-surface); border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border); transition: transform 0.35s ease, border-color 0.35s ease; }
-    .gallery-card:hover { transform: translateY(-6px); border-color: var(--color-accent); }
-    .gallery-card .img-wrap { aspect-ratio: 4/3; overflow: hidden; }
-    .gallery-card .img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; cursor: zoom-in; }
-    .gallery-card:hover .img-wrap img { transform: scale(1.08); }
-    .gallery-card .caption { padding: 18px 20px 22px; }
-    .gallery-card .caption h3 { font-family: var(--font-serif); font-size: 1.15rem; margin-bottom: 6px; }
-    .gallery-card .caption p { font-size: 0.88rem; color: var(--color-text-muted); line-height: 1.5; }
-    .back-link { display: inline-flex; align-items: center; gap: 8px; color: var(--color-accent); font-weight: 500; margin-bottom: 32px; }
-    .back-link:hover { color: var(--color-accent-hover); }
-  </style>
 </head>
 <body>
   <div class="bg-animation"><div class="bg-shape shape-1"></div><div class="bg-shape shape-2"></div><div class="bg-shape shape-3"></div></div>
@@ -40,26 +25,56 @@
   </header>
   <section class="page-hero">
     <div class="container">
-      <p class="eyebrow">Kategorija</p>
-      <h1>Javni projekti</h1>
-      <p>Športni objekti, kulturni prostori, šole in druge javne stavbe – prostor za skupnost.</p>
+      <p class="eyebrow">Projekti</p>
+      <h1>Javni objekti</h1>
+      <p class="lead">Šole, vrtci, športni objekti, knjižnice in javni prostori – 10 projektov.</p>
     </div>
   </section>
-  <section class="section" style="padding-top:0">
+  <section class="section">
     <div class="container">
-      <a href="projekti.html" class="back-link">← Nazaj na vse projekte</a>
       <div class="gallery-grid">
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80" alt="Športni kompleks" loading="lazy"></div><div class="caption"><h3>Športni kompleks</h3><p>Večnamenski športni objekt z dvorano in zunanji igrišči. Zagorje ob Savi, 2020.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&q=80" alt="Kulturni dom" loading="lazy"></div><div class="caption"><h3>Prenova kulturnega doma</h3><p>Obnova in posodobitev dvorane ter skupnih prostorov. Zagorje, 2018.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80" alt="Šola" loading="lazy"></div><div class="caption"><h3>Osnovna šola – prizidek</h3><p>Nov prizidek z učilnicami in jedilnico. Zasavje, 2021.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80" alt="Stadion" loading="lazy"></div><div class="caption"><h3>Športni stadion – tribune</h3><p>Nove tribune in pomožni objekti. 2019.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80" alt="Knjižnica" loading="lazy"></div><div class="caption"><h3>Knjižnica</h3><p>Sodobna knjižnica z odprtim bralnim prostorom in otroškim oddelkom. 2022.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1577495508048-b635880295f7?w=800&q=80" alt="Zdravstveni dom" loading="lazy"></div><div class="caption"><h3>Zdravstveni dom – prenova</h3><p>Prenova ambulant in čakalnic. Zagorje, 2023.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" alt="Gasilske" loading="lazy"></div><div class="caption"><h3>Gasilski dom</h3><p>Novi gasilski objekt z garažami in sejno sobo. 2020.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&q=80" alt="Vrtec" loading="lazy"></div><div class="caption"><h3>Vrtec</h3><p>Novi vrtec z igralnimi površinami in varnimi materiali. 2021.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1477959858617-67f85cf3c1c7a?w=800&q=80" alt="Trg" loading="lazy"></div><div class="caption"><h3>Ureditev trga</h3><p>Javni prostor z klopmi, zelenjem in razsvetljavo. Zagorje, 2017.</p></div></div>
-        <div class="gallery-card"><div class="img-wrap"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80" alt="Most" loading="lazy"></div><div class="caption"><h3>Povezovalni most</h3><p>Peš in kolesarski most čez potok. 2019.</p></div></div>
+        <a href="projekti/javni/sportni-kompleks.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80" alt="Športni kompleks" loading="lazy"></div>
+          <div class="card-body"><h3>Športni kompleks</h3><p>Zagorje · 2020</p></div>
+        </a>
+        <a href="projekti/javni/prenova-kulturnega-doma.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800&q=80" alt="Prenova kulturnega doma" loading="lazy"></div>
+          <div class="card-body"><h3>Prenova kulturnega doma</h3><p>Zagorje · 2018</p></div>
+        </a>
+        <a href="projekti/javni/osnovna-sola-prizidek.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80" alt="Osnovna šola – prizidek" loading="lazy"></div>
+          <div class="card-body"><h3>Osnovna šola – prizidek</h3><p>Zasavje · 2021</p></div>
+        </a>
+        <a href="projekti/javni/sportni-stadion-tribune.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80" alt="Športni stadion – tribune" loading="lazy"></div>
+          <div class="card-body"><h3>Športni stadion – tribune</h3><p>Zasavje · 2019</p></div>
+        </a>
+        <a href="projekti/javni/knjiznica.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80" alt="Knjižnica" loading="lazy"></div>
+          <div class="card-body"><h3>Knjižnica</h3><p>Zagorje · 2022</p></div>
+        </a>
+        <a href="projekti/javni/zdravstveni-dom.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1577495508048-b635880295f7?w=800&q=80" alt="Zdravstveni dom" loading="lazy"></div>
+          <div class="card-body"><h3>Zdravstveni dom</h3><p>Zagorje · 2023</p></div>
+        </a>
+        <a href="projekti/javni/gasilski-dom.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80" alt="Gasilski dom" loading="lazy"></div>
+          <div class="card-body"><h3>Gasilski dom</h3><p>Zasavje · 2020</p></div>
+        </a>
+        <a href="projekti/javni/vrtec.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&q=80" alt="Vrtec" loading="lazy"></div>
+          <div class="card-body"><h3>Vrtec</h3><p>Zagorje · 2021</p></div>
+        </a>
+        <a href="projekti/javni/ureditev-trga.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1477959858617-67f85cf3c1c7?w=800&q=80" alt="Ureditev trga" loading="lazy"></div>
+          <div class="card-body"><h3>Ureditev trga</h3><p>Zagorje · 2017</p></div>
+        </a>
+        <a href="projekti/javni/povezovalni-most.html" class="gallery-card" style="display:block;text-decoration:none;color:inherit">
+          <div class="img-wrap"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80" alt="Povezovalni most" loading="lazy"></div>
+          <div class="card-body"><h3>Povezovalni most</h3><p>Zasavje · 2019</p></div>
+        </a>
       </div>
+      <div style="text-align:center;margin-top:48px"><a href="projekti.html" class="btn btn-outline">← Vsi projekti</a></div>
     </div>
   </section>
   <footer class="footer">
